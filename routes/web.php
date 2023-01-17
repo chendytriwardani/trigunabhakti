@@ -30,7 +30,7 @@ Route::get('/', [FrontendController::class, 'showslider']);
 Route::get('/about', [FrontendController::class, 'showAbout']);
 Route::get('/gallery', FrontendController::class . '@showgallery')->name('gallery.show');
 // route profile sekolah
-Route::get('/profile', [FrontendController::class, 'showprofile']);
+Route::get('/profile', [FrontendController::class, 'profilesekolah']);
 
 Route::get('/blog', BlogController::class . '@index')->name('blog.index');
 Route::get('/blog/{slug}', BlogController::class . '@show');

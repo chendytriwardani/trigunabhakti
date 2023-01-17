@@ -243,7 +243,5 @@
         </div>
       </section>
       <!-- End Team Section -->
-    </div>
-
 </main><!-- End #main -->
 @endsection
